@@ -1,32 +1,14 @@
 <?php
-
-get_header();
-
-
-if(have_posts()):
-	while (have_posts()) :
-     the_post(); 
-     //title 
-     
-     ?>
-     <h1><a href="<?php the_permalink();?>">
-     <?php the_title( );?>
-     </a></h1>
-     
-     
-<?php
-     the_excerpt();
-
-	endwhile;
-
-endif;
-get_sidebar('main');
-
-
-
-//add footer 
-get_footer();
-
-
-
+get_header():
 ?>
+
+        <?php if (have_posts()): ?>
+            <?php while (have_posts()): the_post(); ?>
+            <h1><?php the_title()?></h1>
+            <?php endwhile: ?>
+        <?php endif; ?>
+
+<?php
+get_sidebar();
+get_footer():
+?> 
