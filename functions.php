@@ -159,7 +159,9 @@ add_action( 'widgets_init', 'wedding_widgets_init' );
  * Enqueue scripts and styles.
  */
 function wedding_scripts() {
-	wp_enqueue_style( "n", get_stylesheet_uri().'/assets/css/n.css',array(), '1.0','all');
+   
+wp_enqueue_style( "nardi", get_template_directory_uri().'/assets/css/nardi.css', array(), '1.0', 'all' );
+	
 	wp_enqueue_style( 'vibrant-style', get_stylesheet_uri() );
  
 
