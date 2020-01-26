@@ -1,10 +1,19 @@
 
 #colophon{
 	text-align: center;
-	background-color: green;
+	background-color: #07A3B2;
 
 
 }
 .site-info{
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 50px;;
 
+}
+.navbar-expand-md .navbar-collapse{
+	background: #D9ECC7;
+}
+.navbar-collapse{
+	align-items: flex-end;
 }
