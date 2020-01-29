@@ -15,10 +15,26 @@
 get_header();
 ?>
    <div class="container">
-  <div class="row">
+   <div class="row">
     <div class="col-sm-8">
-
+	<div class="row1">
+  <div class="column1">
+    <h2>Column</h2>
+    <p id="rcorners2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+  </div>
+  
+  <div class="column1">
+    <h2>Column</h2>
+    <p id="rcorners2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+  </div>
+  
+  <div class="column1">
+    <h2>Column</h2>
+    <p id="rcorners2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+  </div>
+</div>
 	<div id="primary" class="content-area">
+		
 		<main id="main" class="site-main">
 
 		<?php
@@ -36,6 +52,7 @@ get_header();
 		?>
 
 		</main><!-- #main -->
+		
 	</div><!-- #primary -->
 	</div>
 	 <div class="col-sm-4">
