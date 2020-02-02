@@ -24,16 +24,25 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wedding' ); ?></a>
 	<nav id="site-navigation"  class="navbar navbar-expand-md ">
-    <a class="navbar-brand" href="#">
+    
         <?php bloginfo('name'); ?>
     </a>
-    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wedding' ); ?></button>
+   
+<button class="navbar-toggler navbar-toggler-icon navbar-toggler-right bg-light" 
+type = "button" 
+data-toggle="collapse" 
+data-target="#bs4navbar" 
+aria-controls = "bs4navbar"
+aria-expanded="false"
+aria-label="Toggle navigation">
+<?php esc_html_e( '', 'Wedding_nardaa' ); ?>
+</button>
 <?php
             wp_nav_menu([
             'menu'            => 'primary-menu',
             'theme_location'  => 'menu-1',
             'container'       => 'div',
-            'container_id'    => 'navbarCollapse',
+            'container_id'    => 'bs4navbar',
             'container_class' => 'collapse navbar-collapse',
             'menu_id'         => false,
             'menu_class'      => 'navbar-nav mr-auto',
