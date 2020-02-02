@@ -307,3 +307,9 @@ function RadTheme_enqueue_styles() {
   }
   add_action( 'wp_enqueue_scripts', 'RadTheme_enqueue_scripts');
 
+  function Wedding_nardaa_add_editor_styles(){
+      add_editor_style('/assets/css/custom-editor-style.css');
+      add_action('admin_init', 'Wedding_nardaa_add_editor_styles');
+
+  }
+
