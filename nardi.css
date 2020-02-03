@@ -36,29 +36,12 @@ input.search-submit{
 	height: 80px;
 }
 
-.column1 {
-	float: left;
-	width: 33.33%;
-	padding: 15px;
-  }
-  
-  /* Clear floats after the columns */
-  .row1:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  #rcorners2 {
-	border-radius: 25px;
-	border: 2px solid #73AD21;
-	padding: 20px;
-	width: 200px;
-	height: 150px;
-  }
-  .navbar-expand-md .navbar-collapse {
+.navbar-expand-md .navbar-collapse {
     margin-left: -14px;
     margin-right: -43px;
 	margin-top: -6px;
+	float: right;
+	align-items: right;
   }
   
   
